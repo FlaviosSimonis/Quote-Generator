@@ -42,7 +42,7 @@ function newQuote() {
     //console.log(quote);
 }
 //
-// Get Quotes form api
+// Get Quotes form API
 async function getQuotes() {
     showLoadingSpinner();
     const apiUrl='https://type.fit/api/quotes';
